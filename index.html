@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="es-CR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JAB | Just a Bed — Cerca del Aeropuerto</title>
+  <meta name="description" content="JAB | Just a Bed. Hospedajes imprevistos de corto plazo cerca del Aeropuerto Juan Santamaría, Alajuela, CR. Parqueo seguro, cuido de mascotas (opcional), transporte al aeropuerto (según coordinación)." />
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/genfavicon-32.png" sizes="32x32">
+  <link rel="icon" href="/genfavicon-16.png" sizes="16x16">
+  <link rel="apple-touch-icon" href="/apple-touch-icon-57x57.png" sizes="57x57">
+  <link rel="apple-touch-icon" href="/apple-touch-icon-114x114.png" sizes="114x114">
+  <link rel="apple-touch-icon" href="/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <img class="brand__logo" src="assets/logo.png" alt="Logo JAB | Just a Bed" width="44" height="44" onerror="this.style.display='none'"/>
+      <div class="brand__text">
+        <strong class="brand__name">JAB</strong>
+        <span class="brand__sub">Just a Bed</span>
+      </div>
+    </a>
+
+    <button class="menuBtn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">☰</button>
+
+    <nav id="menu" class="menu" aria-label="Navegación principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="headBtns">
+      <a class="btn btn--wa" id="waTop" href="#" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn btn--ig" id="igTop" href="#" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="inicio" class="hero">
+    <div class="slider" id="slider" aria-label="Imágenes principales">
+      <div class="slides" id="slides">
+        <img src="assets/1.jpg" alt="JAB - Imagen 1">
+        <img src="assets/2.jpg" alt="JAB - Imagen 2">
+        <img src="assets/3.jpg" alt="JAB - Imagen 3">
+        <img src="assets/4.jpg" alt="JAB - Imagen 4">
+      </div>
+
+      <button class="sliderBtn prev" type="button" aria-label="Imagen anterior">‹</button>
+      <button class="sliderBtn next" type="button" aria-label="Imagen siguiente">›</button>
+      <div class="dots" id="dots" aria-label="Indicadores del slider"></div>
+    </div>
+
+    <div class="container hero__content">
+      <p class="pill">Alajuela, Costa Rica • Cerca del Aeropuerto Juan Santamaría (SJO)</p>
+      <h1>Hospedaje simple, seguro y cerca.</h1>
+      <p class="lead">
+        <strong>JAB | Just a Bed</strong> ofrece <strong>hospedaje imprevisto de corto plazo</strong>.
+        Además: <strong>parqueo seguro</strong>, <strong>cuido de mascotas</strong> y <strong>transporte al aeropuerto</strong> (según coordinación).
+      </p>
+
+      <div class="cta">
+        <a class="btn btn--wa" id="waHero" href="#" target="_blank" rel="noopener">Consultar por WhatsApp</a>
+        <a class="btn btn--ghost" href="#servicios">Ver servicios</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" class="section container">
+    <div class="headRow">
+      <h2>Servicios</h2>
+      <p class="muted">Sencillo, claro y coordinado por mensaje.</p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <div class="iconWrap" aria-hidden="true"><span class="icon">🛏️</span></div>
+        <h3>Hospedaje imprevisto</h3>
+        <p>Una noche o estadías cortas cerca del Aeropuerto Juan Santamaría (SJO).</p>
+      </article>
+
+      <article class="card">
+        <div class="iconWrap" aria-hidden="true"><span class="icon">🅿️</span></div>
+        <h3>Parqueo seguro</h3>
+        <p>Espacio para mantener tu vehículo seguro y cuidado mientras viajás o hacés diligencias.</p>
+      </article>
+
+      <article class="card">
+        <div class="iconWrap" aria-hidden="true"><span class="icon">🐶</span><span class="icon2">🐾</span></div>
+        <h3>Cuido de mascotas</h3>
+        <p>Servicio adicional coordinado por WhatsApp.</p>
+      </article>
+
+      <article class="card">
+        <div class="iconWrap" aria-hidden="true"><span class="icon">✈️</span><span class="icon2">🚗</span></div>
+        <h3>Transporte al aeropuerto</h3>
+        <p>Según disponibilidad y coordinación previa.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="galeria" class="section section--soft">
+    <div class="container">
+      <div class="gallery">
+        <img src="assets/1.jpg" alt="Galería 1" loading="lazy">
+        <img src="assets/2.jpg" alt="Galería 2" loading="lazy">
+        <img src="assets/3.jpg" alt="Galería 3" loading="lazy">
+        <img src="assets/4.jpg" alt="Galería 4" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section container">
+    <div class="headRow">
+      <h2>Contacto</h2>
+      <p class="muted">Escribinos y coordinamos.</p>
+    </div>
+
+    <div class="two">
+      <div class="box">
+        <h3>WhatsApp</h3>
+        <p class="muted">Número: <strong>+506 6090 6359</strong></p>
+
+        <div class="row">
+          <a class="btn btn--wa" id="waContact" href="#" target="_blank" rel="noopener">
+            <img class="btnIcon" src="assets/whatsapp.png" alt="" width="20" height="20" onerror="this.style.display='none'"/> WhatsApp
+          </a>
+          <button class="btn btn--ghost dark" id="copyNumber" type="button">Copiar número</button>
+        </div>
+        <p class="muted small" id="copyHint" role="status" aria-live="polite"></p>
+
+        <hr class="hr" />
+
+        <h3>Instagram</h3>
+        <a class="btn btn--ig" id="igContact" href="#" target="_blank" rel="noopener">
+          <img class="btnIcon" src="assets/instagram.png" alt="" width="20" height="20" onerror="this.style.display='none'"/> Instagram
+        </a>
+      </div>
+
+      <div class="box">
+        <h3>Mensaje sugerido para contactar JAB by Maxi's</h3>
+        <div class="msg" id="msgBox" tabindex="0">
+Hola, soy _____. Quisiera consultar por disponibilidad en JAB (hospedaje/parqueo/cuido de mascota/transporte al aeropuerto). Fecha: ____. Hora aproximada: ____. Gracias.
+        </div>
+        <button class="btn btn--wa" id="copyMsg" type="button">Copiar mensaje</button>
+        <p class="muted small" id="copyMsgHint" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__bottom">
+    <p class="muted small">© <span id="year"></span> JABCR.SITE</p>
+  </div>
+</footer>
+
+<div class="float">
+  <a class="float__btn wa" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">🟢 WhatsApp</a>
+  <a class="float__btn ig" id="igFloat" href="#" target="_blank" rel="noopener" aria-label="Abrir Instagram">🟣 Instagram</a>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
